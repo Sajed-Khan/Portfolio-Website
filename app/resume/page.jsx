@@ -182,7 +182,10 @@ const Resume = () => {
               <p className="text-white/70 mt-4">
                 Get the full resume PDF with detailed project notes and references.
               </p>
-              <a href="/Sajed_Khan_Resume.pdf" download>
+              <a
+                href={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/Sajed_Khan_Resume.pdf`}
+                download
+              >
                 <Button size="lg" className="uppercase mt-6 w-full">Download PDF</Button>
               </a>
             </div>

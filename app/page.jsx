@@ -39,7 +39,10 @@ export default function Home() {
               for startups, enterprises, and public-sector teams.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-6 xl:gap-8">
-              <a href="/Sajed_Khan_Resume.pdf" download>
+              <a
+                href={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/Sajed_Khan_Resume.pdf`}
+                download
+              >
                 <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
                   <span>Download Resume</span>
                   <DownloadIcon className="text-xl"/>
