@@ -217,7 +217,7 @@ const Resume = () => {
               role="presentation"
             >
               <Image
-                src="/cybersecurity-cert.jpg"
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/cybersecurity-cert.jpg`}
                 alt="Cybersecurity certification"
                 fill
                 className="object-contain rounded-xl"
