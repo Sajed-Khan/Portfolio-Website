@@ -4,15 +4,43 @@
 
 @layer base{
     body {
-        @apply font-primary bg-primary text-white leading-loose
+        @apply font-primary bg-primary text-white leading-loose;
+        background-image:
+          radial-gradient(1200px 600px at 10% 10%, rgba(46, 230, 166, 0.12), transparent 60%),
+          radial-gradient(900px 500px at 90% 0%, rgba(242, 184, 75, 0.12), transparent 55%),
+          linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0));
+        background-attachment: fixed;
     }
     .h1{
-        @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold
+        @apply font-serif text-[44px] xl:text-[76px] leading-[1.05] font-semibold tracking-tight
     }
     .h2{
-        @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold
+        @apply font-serif text-[32px] xl:text-[46px] leading-[1.1] font-semibold tracking-tight
     }
     .h3{
-        @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold
+        @apply text-[20px] xl:text-[24px] leading-[1.15] font-semibold
     }
+    .eyebrow{
+        @apply uppercase tracking-[0.3em] text-xs text-accent font-medium;
+    }
+    .card{
+        @apply bg-surface/80 border border-white/10 rounded-2xl shadow-lg shadow-black/20;
+    }
+    .glow-pulse{
+        animation: glowPulse 3.5s ease-in-out infinite;
+    }
+    .content-entrance{
+        opacity: 0;
+        transform: translateY(10px);
+        animation: contentEnter 0.45s ease-out 1.4s forwards;
+    }
+}
+
+@keyframes contentEnter{
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes glowPulse{
+    0%, 100% { opacity: 0.25; }
+    50% { opacity: 0.5; }
 }
