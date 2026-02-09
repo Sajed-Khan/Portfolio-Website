@@ -11,7 +11,8 @@ export const metadata = {
   title: "Sajed Khan | Full Stack Developer",
   description: "Portfolio website showcasing my work as a full stack developer.",
   icons: {
-    icon: `${basePath}/icon.svg`,
+    icon: [{ url: `${basePath}/icon.svg`, type: "image/svg+xml" }],
+    shortcut: [`${basePath}/icon.svg`],
   },
 };
 
