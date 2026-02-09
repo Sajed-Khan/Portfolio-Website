@@ -32,10 +32,10 @@ export default function Home() {
               Building secure, scalable
               <br /> <span className="text-accent">products</span>
             </h1>
-            <p className="max-w-[580px] mb-8 text-white/80">
+            <p className="max-w-[580px] mb-8 text-[0.98rem] leading-relaxed text-white/80 md:text-base lg:text-lg">
               I&apos;m Sajed Khan, a UAE-based full stack developer specializing in
               React, Vue, Next.js, TypeScript, and Node.js. I build secure, scalable
-              products end-to-end—from UI libraries to mission-critical systems
+              products end-to-end&mdash;from UI libraries to mission-critical systems
               for startups, enterprises, and public-sector teams.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-6 xl:gap-8">

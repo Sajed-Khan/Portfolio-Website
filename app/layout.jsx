@@ -19,6 +19,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href={`${basePath}/icon.svg`} type="image/svg+xml" />
+      </head>
       <body className={jetBrainsMono.variable}>
         <Header />
         <StairEffect/>
