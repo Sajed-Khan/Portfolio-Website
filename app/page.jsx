@@ -71,7 +71,7 @@ export default function Home() {
                     <p className="text-xs uppercase tracking-widest text-white/60">Years</p>
                   </div>
                   <div>
-                    <p className="text-2xl font-semibold text-accent">2</p>
+                    <p className="text-2xl font-semibold text-accent">4</p>
                     <p className="text-xs uppercase tracking-widest text-white/60">Certifications</p>
                   </div>
                   <div>

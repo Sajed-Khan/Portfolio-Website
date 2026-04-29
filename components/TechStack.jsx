@@ -15,7 +15,11 @@ import {
   SiPython,
   SiMysql,
   SiSequelize,
+  SiTerraform,
+  SiDocker,
+  SiAuth0,
 } from "react-icons/si";
+import { FaDatabase } from "react-icons/fa";
 
 const techGroups = [
   {
@@ -34,18 +38,21 @@ const techGroups = [
     items: [
       { name: "Node.js", icon: FaNodeJs },
       { name: "Python", icon: SiPython },
+      { name: "Auth0", icon: SiAuth0 },
     ],
   },
   {
-    title: "Cloud & Integrations",
+    title: "Cloud & DevOps",
     items: [
       { name: "AWS", icon: SiAmazonaws },
-      { name: "Google Cloud", icon: SiGooglecloud },
+      { name: "GCP", icon: SiGooglecloud },
+      { name: "Terraform", icon: SiTerraform },
+      { name: "Docker", icon: SiDocker },
       { name: "Stripe", icon: SiStripe },
     ],
   },
   {
-    title: "Databases",
+    title: "Databases & ORM",
     items: [
       { name: "SQL", icon: SiMysql },
       { name: "Sequelize", icon: SiSequelize },

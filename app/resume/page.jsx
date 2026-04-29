@@ -11,22 +11,22 @@ const experience = [
     date: "Aug 2024 – Present",
     stack: "React.js, Vue.js, Next.js, TypeScript, Node.js",
     points: [
-      "Built a unified UI component library for Dubai Development Authority using Storybook and Stencil.js to standardize design across teams.",
-      "Delivered KPI Management and Partnerships modules for MOHAP, aligning requirements with ministry workflows.",
-      "Implemented secure server-side APIs and wrappers powering Dubai Now and DHA integrations with strong data governance.",
-      "Developed the globally scaled Quran Awards platform and Dubai Police Weather Forecast application.",
-      "Contributed to the DHA CMS and dynamic page builder aligned with DDA design guidelines.",
+      "Built and delivered core business systems for MOHAP, including KPI Management and Partnerships platforms used across multiple departments.",
+      "Developed secure API integrations and authentication flows (OAuth2, rate limiting) for Dubai Health Authority services used in the Dubai Now application.",
+      "Engineered production systems including the Quran Awards judging platform and Dubai Police Weather Forecast system, integrating external APIs and internal enterprise systems.",
+      "Contributed to the Dubai Health Authority CMS and Service Builder, aligning with Dubai Development Authority (DDA) standards for scalable digital services.",
+      "Developed Voice of Customer and KPI modules for Dubai Customs, implementing AI-based feedback analysis to support data-driven decision making.",
     ],
   },
   {
     role: "Full Stack Developer (Freelance)",
     company: "LaBamba Fashion",
-    date: "Apr 2024 – May 2024",
+    date: "Apr 2024 – July 2024",
     stack: "Next.js, TypeScript, MongoDB, React.js",
     points: [
-      "Delivered a customizable B2C ecommerce site with an admin dashboard and production-ready storefront.",
-      "Optimized performance with server rendering, lazy image loading, and caching strategies.",
-      "Integrated Stripe payments for secure and reliable online transactions.",
+      "Designed and built a multi-tenant B2C e-commerce platform with modular admin dashboard for managing products, orders, and inventory.",
+      "Integrated Stripe payments, handling checkout flows, payment intents, and transaction validation.",
+      "Managed end-to-end delivery including development, deployment, and performance optimizations on Vercel.",
     ],
   },
   {
@@ -154,6 +154,44 @@ const Resume = () => {
                   </a>
                 </div>
                 <div className="border-t border-white/10 pt-4">
+                  <h3 className="h3">AWS Solutions Architect Associate (SAA-C03)</h3>
+                  <p className="text-white/70 mt-2">In Progress</p>
+                </div>
+                <div className="border-t border-white/10 pt-4">
+                  <h3 className="h3">Cisco AI Business Practitioner</h3>
+                  <p className="text-white/70 mt-2">Passed March 2026</p>
+                  <a
+                    href="https://www.credly.com/badges/34bf02e2-ea22-4cb9-8b28-81dfd0dfe22e/public_url"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block"
+                  >
+                    <button
+                      type="button"
+                      className="text-sm uppercase tracking-widest text-accent hover:text-accent/80 mt-3"
+                    >
+                      View certificate
+                    </button>
+                  </a>
+                </div>
+                <div className="border-t border-white/10 pt-4">
+                  <h3 className="h3">Cisco AI Technical Practitioner</h3>
+                  <p className="text-white/70 mt-2">Passed March 2026</p>
+                  <a
+                    href="https://www.credly.com/badges/69f5e098-d8b6-46a9-b979-57da8a89a713/public_url"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block"
+                  >
+                    <button
+                      type="button"
+                      className="text-sm uppercase tracking-widest text-accent hover:text-accent/80 mt-3"
+                    >
+                      View certificate
+                    </button>
+                  </a>
+                </div>
+                <div className="border-t border-white/10 pt-4">
                   <h3 className="h3">Cybersecurity Certification</h3>
                   <p className="text-white/70 mt-2">Passed July 2024</p>
                   <button
@@ -172,8 +210,9 @@ const Resume = () => {
               <div className="mt-4 flex flex-col gap-3 text-white/70">
                 <span>Languages: HTML, CSS, JavaScript, TypeScript, C++, Python</span>
                 <span>Frameworks: React.js, Vue.js, Next.js, Node.js</span>
-                <span>Tools: Git Bash, Google Cloud Platform, AWS</span>
-                <span>Databases: MongoDB, Prisma ORM, SQL, Sequelize</span>
+                <span>Cloud & DevOps: AWS, Terraform, Docker, GCP, Nginx, Stripe</span>
+                <span>Databases & ORM: MongoDB, SQL, Prisma, Sequelize</span>
+                <span>Tools: Git, Storybook, Auth0, Claude, Codex</span>
               </div>
             </div>
 

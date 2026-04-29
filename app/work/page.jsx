@@ -18,45 +18,51 @@ const workGroups = [
       {
         title: "MOHAP KPI & Partnerships Systems",
         description:
-          "Delivered core modules for KPI management, partnerships, and internal platforms, ensuring alignment with ministry workflows.",
+          "Delivered core business systems for MOHAP, including KPI Management and Partnerships platforms used across multiple departments.",
         tags: ["React", "Node.js", "SQL Server", "API Integration"],
       },
       {
         title: "Dubai Health Authority API Gateways",
         description:
-          "Created secure server-side wrappers for third-party APIs powering Dubai Now, improving data integrity and security.",
-        tags: ["Node.js", "SQL", "Security", "API Integration"],
+          "Developed secure API integrations and authentication flows (OAuth2, rate limiting) for Dubai Health Authority services used in the Dubai Now application.",
+        tags: ["Node.js", "SQL", "Security", "OAuth2"],
+      },
+      {
+        title: "Dubai Customs KPI & feedback Modules",
+        description:
+          "Developed core business systems for Dubai Customs, including Voice of Customer and KPI modules, implementing AI-based feedback analysis to support data-driven decision making.",
+        tags: ["React.js", "Node.js", "AI Analysis", "KPI Management"],
       },
       {
         title: "Quran Awards Platform",
         description:
-          "Developed a globally scaled platform for the Islamic Affairs Charitable Activities Department.",
+          "Engineered production systems including the Quran Awards judging platform for the Islamic Affairs Charitable Activities Department.",
         tags: ["React.js", "SQL Server", "Scalability"],
       },
       {
         title: "Dubai Police Weather Forecast App",
         description:
           "Implemented a weather application integrating National Center of Meteorology APIs with Dubai Police systems.",
-        tags: ["Vue.js", "Java Springboot", "OAuth2", "API Integration", "On-site Delivery"],
+        tags: ["Vue.js", "Java Springboot", "OAuth2", "API Integration"],
       },
       {
         title: "DHA CMS & Dynamic Page Builder",
         description:
-          "Contributed to a CMS and page builder aligned with DDA guidelines, translating business requirements into reusable components.",
-        tags: ["Next.js", "TypeScript", "React.js", "Express.js", "Node.js", "Sequelize", "On-site Delivery"],
+          "Contributed to the Dubai Health Authority CMS and Service Builder, aligning with Dubai Development Authority (DDA) standards.",
+        tags: ["Next.js", "TypeScript", "React.js", "Express.js", "Node.js", "Sequelize"],
       },
     ],
   },
   {
     company: "LaBamba Fashion (Freelance)",
-    period: "Apr 2024 – May 2024",
+    period: "Apr 2024 – July 2024",
     summary: "B2C ecommerce build with performance and payments focus.",
     items: [
       {
         title: "LaBamba Fashion Ecommerce",
         description:
-          "Delivered a customizable B2C ecommerce site with admin dashboard, Next.js SSR optimizations, and Stripe payments.",
-        tags: ["Next.js", "Stripe", "TypeScript"],
+          "Designed and built a multi-tenant B2C e-commerce platform with modular admin dashboard for managing products, orders, and inventory.",
+        tags: ["Next.js", "Stripe", "TypeScript", "Vercel"],
       },
     ],
   },

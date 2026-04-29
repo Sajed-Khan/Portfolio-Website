@@ -44,7 +44,14 @@ const MobileNav = () => {
             {links.map((link, index) =>{
                 return(
                     <SheetClose asChild key={index}>
-                        <Link href={link.path} className={`${link.path === pathname && "text-accent border-b-2 border-accent"} text-xl capitalize hover:text-accent transition-all`}>
+                        <Link 
+                            href={link.path} 
+                            className={`${
+                                (link.path === pathname || (link.path !== "/" && pathname === `${link.path}/`)) 
+                                ? "text-accent border-b-2 border-accent" 
+                                : ""
+                            } text-xl capitalize hover:text-accent transition-all`}
+                        >
                             {link.name}
                         </Link>
                     </SheetClose>
