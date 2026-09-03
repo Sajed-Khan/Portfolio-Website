@@ -19,6 +19,10 @@ const links = [
         path: "/work",
     },
     {
+        name: "shattered rites",
+        path: "/shattered-rites",
+    },
+    {
         name: "contact",
         path: "/contact",
     },
@@ -42,15 +46,21 @@ const MobileNav = () => {
         </div>
         <nav className='flex flex-col justify-center items-center gap-8'>
             {links.map((link, index) =>{
+                const isActive = link.path === pathname || (link.path !== "/" && pathname === `${link.path}/`);
+                const isFeatured = link.path === "/shattered-rites";
                 return(
                     <SheetClose asChild key={index}>
                         <Link 
                             href={link.path} 
                             className={`${
-                                (link.path === pathname || (link.path !== "/" && pathname === `${link.path}/`)) 
+                                isActive 
                                 ? "text-accent border-b-2 border-accent" 
                                 : ""
-                            } text-xl capitalize hover:text-accent transition-all`}
+                            } ${
+                                isFeatured
+                                ? "relative text-accent after:absolute after:-right-4 after:top-1 after:h-2 after:w-2 after:rounded-full after:bg-accent after:shadow-[0_0_12px_rgba(46,230,166,0.8)]"
+                                : "hover:text-accent"
+                            } text-xl capitalize font-semibold transition-all hover:text-accent`}
                         >
                             {link.name}
                         </Link>

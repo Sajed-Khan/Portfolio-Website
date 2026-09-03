@@ -1,0 +1,22 @@
+Sajed Khan  +971506804814 — # sajed619007@gmail.com —  Portfolio — § GitHub — ï LinkedIn Professional Summary
+Full Stack Developer with experience building production-grade web applications for UAE government entities. AWS Certified Developer specializing in end-to-end product development—from requirements gathering and architecture to deployment. Proven track record of delivering scalable, user-facing applications serving healthcare and government sectors.
+Education University of Sharjah
+BSc. Computer Science Certifications
+AWS Certified Developer – Associate (2025) AWS Solutions Architect – Associate (in progress) Experience Full Stack Developer — React.js, Next.js, Vue.js, Node.js, .NET, TypeScript, SQL
+Sharjah, UAE Jan 2020 – Jul 2024 Aug 2024 – Jul 2026
+Datacell Solutions – Built and delivered React.js applications for MOHAP’s KPI and Portfolio Management platforms, and role-based dashboards created with .NET currently used by 300+ internal employees across 50+ UAE hospitals
+– Implemented secure OAuth2 and JWT authentication flows with rate-limited REST APIs with Node.js for Dubai Health Authority services, supporting the current Dubai Now mobile application
+– Led frontend development of Quran Awards judging platform using React.js, serving 4,000+ global users with real-time scoring, evaluation workflows, and responsive UI optimized for concurrent users
+– Built Next.js interfaces and Node.js REST APIs for DHA’s CMS and Service Builder, implementing TypeScript-based components and API integrations with strict adherence to Dubai Digital Design (DDA) standards
+– Developed Voice of Customer and KPI modules for Dubai Customs using React.js, implementing dashboard visualizations that reduced manual review time
+– Developed and integrated NCM weather data with internal services, including OpenID Connect (OIDC) identity platform with WSO2 to enable secure authentication and employee management system
+– Collaborated with EPAA organization to develop an ArcGIS-powered inspection platform with React.js dynamic map visualizations, RBAC, and streamlined approval workflows
+Freelance Full Stack Developer — MongoDB, Next.js, TypeScript, Node.js Apr 2024 – July 2024
+LaBamba Fashion – Designed and built a production-ready multi-tenant B2C e-commerce platform using Next.js, TypeScript, and Node.js, with a modular admin dashboard for managing products, orders, and inventory across multiple storefronts
+– Integrated Stripe payment gateway with secure checkout flows, payment intents, and transaction validation—managing the complete end-to-end delivery from requirements gathering to Vercel deployment
+– Architected the entire full-stack application independently, demonstrating ability to own product development from concept to production deployment
+Featured Project AI Fashion Shopping Assistant — Python, FastAPI, Next.js, LangChain, Qdrant, PostgreSQL, Redis – Built a ML Retrieval-Augmented Generation (RAG) system using LangChain, vector embeddings, and Qdrant to retrieve, rank, and recommend relevant fashion products based on user intent and structured shopping constraints
+– Implemented tool-calling AI workflows that dynamically query product catalogs, apply hybrid search and metadata filtering, and generate personalized shopping recommendations with contextual reasoning
+– Designed a scalable backend and CI/CD architecture with FastAPI, PostgreSQL, Redis caching, Celery background workers, and Docker, supporting efficient embedding generation, low-latency retrieval, and production-ready deployment
+Technical Skills
+Frontend: React.js, Next.js, Vue.js, TypeScript, JavaScript, HTML5, CSS3 Backend: Node.js, Express.js, REST APIs Databases: PostgreSQL, MongoDB, MySQL, Prisma ORM, Sequelize Cloud & DevOps: AWS, Docker, Vercel
