@@ -44,25 +44,30 @@ const nextSteps = [
   "Probably some puzzles or objectives to give the player something to do besides run",
 ];
 
-const VideoBlock = ({ src, label }) => (
-  <div className="overflow-hidden rounded-xl border border-white/10 bg-black/40 shadow-lg shadow-black/30">
-    <video
-      className="aspect-video w-full bg-black object-cover"
-      src={src}
-      controls
-      autoPlay
-      muted
-      loop
-      preload="metadata"
-      playsInline
-    >
-      Your browser does not support the video tag.
-    </video>
-    <div className="border-t border-white/10 px-4 py-3 text-sm text-white/60">
-      {label}
+const VideoBlock = ({ src, label }) => {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+  const videoSrc = `${basePath}${src}`;
+
+  return (
+    <div className="overflow-hidden rounded-xl border border-white/10 bg-black/40 shadow-lg shadow-black/30">
+      <video
+        className="aspect-video w-full bg-black object-cover"
+        src={videoSrc}
+        controls
+        autoPlay
+        muted
+        loop
+        preload="metadata"
+        playsInline
+      >
+        Your browser does not support the video tag.
+      </video>
+      <div className="border-t border-white/10 px-4 py-3 text-sm text-white/60">
+        {label}
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 const Section = ({ eyebrow, title, children }) => (
   <section className="border-t border-white/10 pt-10">
