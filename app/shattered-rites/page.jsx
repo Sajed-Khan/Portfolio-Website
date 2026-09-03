@@ -3,7 +3,7 @@ import React from "react";
 const videos = {
   hollow: "/Hollow.mp4",
   elias: "/Elias.mp4",
-  gameplay: "/Gamplay.mp4",
+  gameplay: "/Gameplay.mp4",
 };
 
 const aiStates = [
@@ -50,6 +50,9 @@ const VideoBlock = ({ src, label }) => (
       className="aspect-video w-full bg-black object-cover"
       src={src}
       controls
+      autoPlay
+      muted
+      loop
       preload="metadata"
       playsInline
     >

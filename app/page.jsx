@@ -33,10 +33,9 @@ export default function Home() {
               <br /> <span className="text-accent">products</span>
             </h1>
             <p className="max-w-[580px] mb-8 text-[0.98rem] leading-relaxed text-white/80 md:text-base lg:text-lg">
-              I&apos;m Sajed Khan, a UAE-based full stack developer specializing in
-              React, Vue, Next.js, TypeScript, and Node.js. I build secure, scalable
-              products end-to-end&mdash;from UI libraries to mission-critical systems
-              for startups, enterprises, and public-sector teams.
+              I&apos;m Sajed Khan, an AWS Certified full stack developer in the UAE.
+              I build secure, scalable products end-to-end - from government
+              platforms and ecommerce systems to AI-powered product experiences.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-6 xl:gap-8">
               <a
@@ -91,24 +90,24 @@ export default function Home() {
             <p className="eyebrow">Product Delivery</p>
             <h3 className="h3 mt-4 mb-3">End-to-end platforms</h3>
             <p className="text-white/70">
-              Delivered KPI management, partnerships, CMS, and ecommerce solutions
-              from discovery to production deployment.
+              Delivered KPI management, partnerships, CMS, inspection, and ecommerce
+              solutions from discovery to production deployment.
             </p>
           </div>
           <div className="card p-6">
             <p className="eyebrow">Security & Reliability</p>
             <h3 className="h3 mt-4 mb-3">Trusted data integrations</h3>
             <p className="text-white/70">
-              Built secure server-side APIS and wrappers for third-party APIs with
-              and OpenID flows to protect data access.
+              Built secure server-side APIs and third-party integrations with OAuth2,
+              JWT, rate limiting, and OpenID Connect flows.
             </p>
           </div>
           <div className="card p-6">
             <p className="eyebrow">Performance</p>
             <h3 className="h3 mt-4 mb-3">Modern full-stack delivery</h3>
             <p className="text-white/70">
-              Shipped web products using Next.js server rendering, lazy loading,
-              Stripe payments, and AI workflows.
+              Shipped web products using Next.js, TypeScript, FastAPI, Docker,
+              Stripe payments, and AI retrieval workflows.
             </p>
           </div>
         </div>
