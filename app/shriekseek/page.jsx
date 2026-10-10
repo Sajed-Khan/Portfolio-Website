@@ -77,14 +77,14 @@ const Section = ({ eyebrow, title, children }) => (
   </section>
 );
 
-const ShatteredRites = () => {
+const Shriekseek = () => {
   return (
     <section className="min-h-screen">
       <div className="container mx-auto py-12 xl:py-20">
         <div className="mx-auto max-w-5xl">
           <div className="max-w-3xl">
             <p className="eyebrow">Godot + C# Survival Horror</p>
-            <h1 className="h1 mt-4">Shattered Rites</h1>
+            <h1 className="h1 mt-4">Shriekseek</h1>
             <p className="mt-6 max-w-2xl text-xl leading-8 text-white/78">
               A top-down survival horror thing I&apos;m building in Godot with C#.
             </p>
@@ -219,4 +219,4 @@ const ShatteredRites = () => {
   );
 };
 
-export default ShatteredRites;
+export default Shriekseek;

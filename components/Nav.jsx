@@ -17,8 +17,8 @@ const links = [
         path: "/work",
     },
     {
-        name: "shattered rites",
-        path: "/shattered-rites",
+        name: "shriekseek",
+        path: "/shriekseek",
     },
     {
         name: "contact",
@@ -32,7 +32,7 @@ const Nav = () => {
         <nav className='flex gap-8'>
             {links.map((link, index) =>{
                 const isActive = link.path === pathname || (link.path !== "/" && pathname === `${link.path}/`);
-                const isFeatured = link.path === "/shattered-rites";
+                const isFeatured = link.path === "/shriekseek";
                 return(
                     <Link 
                         href={link.path} 

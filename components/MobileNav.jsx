@@ -19,8 +19,8 @@ const links = [
         path: "/work",
     },
     {
-        name: "shattered rites",
-        path: "/shattered-rites",
+        name: "shriekseek",
+        path: "/shriekseek",
     },
     {
         name: "contact",
@@ -47,7 +47,7 @@ const MobileNav = () => {
         <nav className='flex flex-col justify-center items-center gap-8'>
             {links.map((link, index) =>{
                 const isActive = link.path === pathname || (link.path !== "/" && pathname === `${link.path}/`);
-                const isFeatured = link.path === "/shattered-rites";
+                const isFeatured = link.path === "/shriekseek";
                 return(
                     <SheetClose asChild key={index}>
                         <Link 
